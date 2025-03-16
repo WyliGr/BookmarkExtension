@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Fastest Bookmark Opener",
+    "version": "1.0",
+    "description": "Just a Bookmark Extension Maybe ?",
+    "permissions": ["tabs"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_title": "Open Link"
+    },
+    "icons": {
+      "48": "icon.png"
+    }
+  }
